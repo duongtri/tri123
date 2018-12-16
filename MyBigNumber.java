@@ -16,13 +16,8 @@ public class MyBigNumber {
      * @return chuỗi mà dạng số của nó bằng s1 + s2.
     */
     public String sum(final String s1,final String s2) {
-        // Kiểm tra xem chuỗi đã cho có rỗng hay không, nếu có mặc định nó là 0
-        if (s2 == null || s2 == "") {
-            s2 = "0";
-        }
-        if (s1 == null || s1 == "") {
-            s1 = "0";
-        }       
+      
+     
         String answer = ""; // answer là chuỗi kết quả, ban đầu là rỗng 
         int l1 = s1.length();// số chữ số trong chuỗi thứ 1
         int l2 = s2.length();// số chữ số trong chuỗi thứ 2
