@@ -8,6 +8,14 @@
 
 public class MyBigNumber {
     
+  private IObserver observer;
+
+    public MyBigNumber() {
+    }
+
+    public MyBigNumber(final IObserver observer) {
+        this.observer = observer;
+    }
     /**
      * Hai chuỗi để cộng chỉ chứa các ký tự từ 0 đến 9.
      * <br/>
