@@ -1,7 +1,7 @@
 
 /**
  *
- * @author Hy's PC
+ * @author tri duong
  */
 public class MyBigNumberTest implements IReceiver {
 
