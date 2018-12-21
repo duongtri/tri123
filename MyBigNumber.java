@@ -8,14 +8,14 @@
 
 public class MyBigNumber {
     
-  private IObserver observer;
+   private IReceiver receiver;
 
-    public MyBigNumber() {
+    public MyBigNumber(){}
+
+    public MyBigNumber(final IReceiver receiver) {
+        this.receiver = receiver;
     }
 
-    public MyBigNumber(final IObserver observer) {
-        this.observer = observer;
-    }
     /**
      * Hai chuỗi để cộng chỉ chứa các ký tự từ 0 đến 9.
      * <br/>
